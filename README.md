@@ -15,7 +15,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
 
 ## Performance
-- Results on OpenKBP **test set** using a **Single model** with test-time augmenation(TTA)
+- Results on OpenKBP **Test Set** using a **Single model** with test-time augmenation(TTA)
 
 | Model | Batch<br>size | GPU<br>memory | Training<br>iterations | Training<br>time |   Dose<br>score|  DVH<br>score|Pre-trained<br>Models|
 |-----| :------------: | :----: | :----: | :----: |:----: |  :------------: |:----: |
