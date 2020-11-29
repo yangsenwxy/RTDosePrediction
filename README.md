@@ -111,7 +111,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 - scipy
 
 ## Citation
-if you find DANet and DRANet useful in your research, please consider citing:
+if you find C3D and DCNN useful in your research, please consider citing:
 
 - C3D
 ~~~
@@ -139,7 +139,7 @@ if you find DANet and DRANet useful in your research, please consider citing:
 }
 ~~~
 ## Acknowledgement
-Thanks OpenKBP Organizers： Aaron Babier, Binghao Zhang, Rafid Mahmood, Timothy Chan， Andrea McNiven， Thomas Purdie， and Kevin Moore. 
+Thank OpenKBP Organizers： Aaron Babier, Binghao Zhang, Rafid Mahmood, Timothy Chan， Andrea McNiven， Thomas Purdie， and Kevin Moore. 
 
 - https://github.com/ababier/open-kbp
 
