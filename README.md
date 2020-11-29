@@ -19,8 +19,8 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
 | Model | Batch<br>size | GPU<br>memory | Training<br>iterations | Training<br>time |   Dose<br>score|  DVH<br>score|Pre-trained<br>Models|
 |-----| :------------: | :----: | :----: | :----: |:----: |  :------------: |:----: |
-| C3D<br>(3D) | 2 | 18Gb | 80,000 | 50 hours<br>(Two GPUs)|  **2.46** |**1.58** |  [Google Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing) <br> [Baidu Drive, PassWord：t6tk](https://pan.baidu.com/s/1etAVQOj9uU2vxEoL5q4VPw)|
-| [DCNN](https://doi.org/10.1088/1361-6560/aba87b)<br>(2D) | 32 | **3Gb** | 100,000 | **20 hours<br>(Single GPU)**|  2.75 |1.68 | [Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing) <br> [Baidu Drive, PassWord：j56y](https://pan.baidu.com/s/1EVG5wP_n04dcphAft1p6-w)|
+| C3D<br>(3D) | 2 | 18Gb | 80,000 | 50 hours<br>(Two 1080TIs)|  **2.46** |**1.58** |  [Google Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing) <br> [Baidu Drive, PassWord：t6tk](https://pan.baidu.com/s/1etAVQOj9uU2vxEoL5q4VPw)|
+| [DCNN](https://doi.org/10.1088/1361-6560/aba87b)<br>(2D) | 32 | **3Gb** | 100,000 | **20 hours<br>(Single 1080TI)**|  2.75 |1.68 | [Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing) <br> [Baidu Drive, PassWord：j56y](https://pan.baidu.com/s/1EVG5wP_n04dcphAft1p6-w)|
 
 
 - OpenKBP leaderboard
