@@ -27,6 +27,15 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
  ![](ReadMeImage/final_leaderboard.png)
 
+## Requirements
+- torch >=1.2.0
+- tqdm
+- opencv-python    4.3.0.36
+- numpy
+- SimpleITK 
+- pandas
+- scikit-image
+- scipy
 
 
 ## Usage
@@ -100,17 +109,6 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
       python test.py --GPU_id 0 --model_path ../../PretrainedModels/DCNN_bs32_iter100000.pkl
       ~~~
 
-
-
-## Requirements
-- torch >=1.2.0
-- tqdm
-- opencv-python    4.3.0.36
-- numpy
-- SimpleITK 
-- pandas
-- scikit-image
-- scipy
 
 ## Citation
 if you find C3D and DCNN useful in your research, please consider citing:
