@@ -1,6 +1,8 @@
 # RTDosePrediction
 Automatic Radiotherapy Treatment Planning ， Knowledge-Based Planning ， Dose Prediction ， Cascade 3D Network (C3D) ，DCNN,  Head and Neck , 
-1st Place Solution to the AAPM OpenKBP challenge
+1st Place Solution to the AAPM OpenKBP challenge <br>
+
+Please feel free to concat me if you have any questions: **1980073622@qq.com**
 
 ## Overview
 This repository contains an PyTorch implementation for radiotherapy dose prediction, along with pre-trained models and examples.
