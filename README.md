@@ -87,12 +87,12 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
 	- C3D：
       ~~~
-      cd RTDosePrediction/Src/C3D
+      cd /path_to_RTDosePrediction/RTDosePrediction/Src/C3D
       python test.py --GPU_id 0 --model_path ../../PretrainedModels/C3D_bs2_iter80000.pkl
       ~~~
 	- DCNN：
       ~~~
-      cd RTDosePrediction/Src/DCNN
+      cd /path_to_RTDosePrediction/RTDosePrediction/Src/DCNN
       python test.py --GPU_id 0 --model_path ../../PretrainedModels/DCNN_bs32_iter100000.pkl
       ~~~
 
