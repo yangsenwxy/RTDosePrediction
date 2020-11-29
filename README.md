@@ -30,7 +30,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 ## Requirements
 - torch >=1.2.0
 - tqdm
-- opencv-python    4.3.0.36
+- opencv-python
 - numpy
 - SimpleITK 
 - pandas
