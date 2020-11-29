@@ -23,7 +23,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 | [DCNN](https://doi.org/10.1088/1361-6560/aba87b) (2D) | 32 | **3Gb** | 100,000 | **20** hours |  2.75 |1.68 | [Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing)|
 
 
-- OpenKBP leadboard
+- OpenKBP leaderboard
 
  ![](ReadMeImage/final_leaderboard.png)
 
