@@ -19,8 +19,8 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
 | Model | Batch  size | GPU memory | Training <br> iterations | Training time |   Dose score|  DVH score|Pre-trained Models|
 |-----| :------------: | :----: | :----: | :----: |:----: |  :------------: |:----: |
-| C3D (3D) | 2 | 18Gb | 80,000 | 50 hours (Two GPUs)|  **2.46** |**1.58** |  [Google Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing) <br> [Baidu Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing)|
-| [DCNN](https://doi.org/10.1088/1361-6560/aba87b) (2D) | 32 | **3Gb** | 100,000 | **20** hours (Single GPU)|  2.75 |1.68 | [Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing) <br> [Baidu Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing)|
+| C3D (3D) | 2 | 18Gb | 80,000 | 50 hours (Two GPUs)|  **2.46** |**1.58** |  [Google Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing) <br> [Baidu Drive, PassWord：t6tk](https://pan.baidu.com/s/1etAVQOj9uU2vxEoL5q4VPw)|
+| [DCNN](https://doi.org/10.1088/1361-6560/aba87b) (2D) | 32 | **3Gb** | 100,000 | **20 hours (Single GPU)**|  2.75 |1.68 | [Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing) <br> [Baidu Drive, PassWord：j56y](https://pan.baidu.com/s/1EVG5wP_n04dcphAft1p6-w)|
 
 
 - OpenKBP leaderboard
@@ -84,7 +84,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
 4. Using pre-trained models
 
-	- Download model weights for [C3D](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing) and [DCNN](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing)
+	- Download model weights for C3D ([Google Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing), [Baidu Drive, PassWord：t6tk](https://pan.baidu.com/s/1etAVQOj9uU2vxEoL5q4VPw)) and DCNN([Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing), [Baidu Drive, PassWord：j56y](https://pan.baidu.com/s/1EVG5wP_n04dcphAft1p6-w))
 	- Copy model weights to `/path_to_RTDosePrediction/RTDosePrediction/PretrainedModels`
 
 	- C3D：
