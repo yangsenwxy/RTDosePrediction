@@ -32,6 +32,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 ## Usage
 1. Data Preparation
 	- Download [OpenKBP challenge repository](https://github.com/ababier/open-kbp), and copy the repository to <br> `/path_to_RTDosePrediction/RTDosePrediction/Data/`
+
 	**For me,  /path_to_RTDosePrediction/ is E://Project/RTDosePrediction-main/**
     - C3D：
 
