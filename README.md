@@ -111,13 +111,19 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 - scipy
 
 ## Citation
+if you find DANet and DRANet useful in your research, please consider citing:
+
+- C3D
 ~~~
 @article{C3D,
    title = {Cascade 3D Network for Radiotherapy Dose Prediction : 1st Place Solution to OpenKBP Challenge},
    author = {Shuolin Liu and Jingjing Zhang and Teng Li and Hui Yan  and Jianfei Liu},
    journal = {Medical Physics, under review}
 }
+~~~
+- DCNN
 
+~~~
 @article{DCNN,
    title = {Predicting voxel-level dose distributions for esophageal radiotherapy using densely connected network with dilated convolutions},
 	doi = {10.1088/1361-6560/aba87b},
