@@ -36,7 +36,7 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
       cd /path_to_RTDosePrediction/RTDosePrediction/Src/DataPrepare
       python prepare_OpenKBP_C3D.py
       ~~~
-
+		**For me,  /path_to_RTDosePrediction/ is E://Project/RTDosePrediction-main/**
    - DCNN：
 
       ~~~
