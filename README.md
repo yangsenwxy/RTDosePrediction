@@ -139,5 +139,7 @@ if you find DANet and DRANet useful in your research, please consider citing:
 }
 ~~~
 ## Acknowledgement
+Thanks OpenKBP Organizers： Aaron Babier, Binghao Zhang, Rafid Mahmood, Timothy Chan， Andrea McNiven， Thomas Purdie， and Kevin Moore. 
+
 - https://github.com/ababier/open-kbp
 
