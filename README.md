@@ -40,20 +40,20 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 
 ## Usage
 1. Data Preparation
-	- Download [OpenKBP challenge repository](https://github.com/ababier/open-kbp), and copy the repository to <br> `/path_to_RTDosePrediction/RTDosePrediction/Data/`
+	- Download [OpenKBP challenge repository](https://github.com/ababier/open-kbp), and copy the repository to <br> `/path_to_your_RTDosePrediction/RTDosePrediction/Data/`
 
-	**For me,  /path_to_RTDosePrediction/ is E://Project/RTDosePrediction-main/**
+	**For me,  /path_to_your_RTDosePrediction/ is E://Project/RTDosePrediction-main/**
     - C3D：
 
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/DataPrepare
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/DataPrepare
       python prepare_OpenKBP_C3D.py
       ~~~
 		
    - DCNN：
 
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/DataPrepare
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/DataPrepare
       python prepare_OpenKBP_DCNN.py
       ~~~
 
@@ -64,13 +64,13 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 	- C3D：
 
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/C3D
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/C3D
       python train.py --batch_size 2 --list_GPU_ids 1 0 --max_iter 80000
       ~~~
 	- DCNN：
 
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/DCNN
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/DCNN
       python train.py --batch_size 32 --list_GPU_ids 0 --max_iter 100000
       ~~~
 
@@ -82,13 +82,13 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 	- C3D：
 
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/C3D
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/C3D
       python test.py --GPU_id 0 
       ~~~
     
 	- DCNN：
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/DCNN
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/DCNN
       python test.py --GPU_id 0 
       ~~~
 
@@ -96,16 +96,16 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
 4. Using pre-trained models
 
 	- Download model weights for C3D ([Google Drive](https://drive.google.com/file/d/1OFctP-Q_gKTj93kPbhRDIcW4jpN1cltv/view?usp=sharing), [Baidu Drive, PassWord：t6tk](https://pan.baidu.com/s/1etAVQOj9uU2vxEoL5q4VPw)) and DCNN([Google Drive](https://drive.google.com/file/d/1dWOYf7rmmyxco5pF75j8Qqt6U9ZmsmhK/view?usp=sharing), [Baidu Drive, PassWord：j56y](https://pan.baidu.com/s/1EVG5wP_n04dcphAft1p6-w))
-	- Copy model weights to `/path_to_RTDosePrediction/RTDosePrediction/PretrainedModels`
+	- Copy model weights to `/path_to_your_RTDosePrediction/RTDosePrediction/PretrainedModels`
 
 	- C3D：
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/C3D
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/C3D
       python test.py --GPU_id 0 --model_path ../../PretrainedModels/C3D_bs2_iter80000.pkl
       ~~~
 	- DCNN：
       ~~~
-      cd /path_to_RTDosePrediction/RTDosePrediction/Src/DCNN
+      cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/DCNN
       python test.py --GPU_id 0 --model_path ../../PretrainedModels/DCNN_bs32_iter100000.pkl
       ~~~
 
