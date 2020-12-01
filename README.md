@@ -68,7 +68,8 @@ The goal of this implementation is to be simple, highly extensible, and easy to 
       cd /path_to_your_RTDosePrediction/RTDosePrediction/Src/C3D
       python train.py --batch_size 2 --list_GPU_ids 1 0 --max_iter 80000
       ~~~
-      **If you have more GPUs， we suggest set batch_size to 4**
+      **If you have more GPUs， we suggest set batch_size to 4 and reset list_GPU_ids. <br> 
+      For example, python train.py --batch_size 4 --list_GPU_ids 3 2 1 0 --max_iter 80000**
 	- DCNN：
 
       ~~~
